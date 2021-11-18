@@ -17,7 +17,7 @@ set_tests_properties(stack_push_pop_0 PROPERTIES PASS_REGULAR_EXPRESSION "SUCCES
 add_test(stack_push_pop_1 stack_test 1)
 set_tests_properties(stack_push_pop_1 PROPERTIES PASS_REGULAR_EXPRESSION "SUCCESS")
 
-add_test(stack_push_pop_2 stack_test 2 1000000)
+add_test(stack_push_pop_2 stack_test 2 10000000)
 set_tests_properties(stack_push_pop_2 PROPERTIES PASS_REGULAR_EXPRESSION "SUCCESS")
 
 add_test(queue_enque_deque_0 queue_test 0)
@@ -26,5 +26,5 @@ set_tests_properties(queue_enque_deque_0 PROPERTIES PASS_REGULAR_EXPRESSION "SUC
 add_test(queue_enque_deque_1 queue_test 1)
 set_tests_properties(queue_enque_deque_1 PROPERTIES PASS_REGULAR_EXPRESSION "SUCCESS")
 
-add_test(queue_enque_deque_2 queue_test 2 1000000)
+add_test(queue_enque_deque_2 queue_test 2 10000000)
 set_tests_properties(queue_enque_deque_2 PROPERTIES PASS_REGULAR_EXPRESSION "SUCCESS")
